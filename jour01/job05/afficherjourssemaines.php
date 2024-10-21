@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +9,10 @@
 </head>
 <body>
     <h1>
-        Bienvenu sur ma page
+        Affichage des jours de la semaine
     </h1>
     <p>
-        Cette page va afficher une alerte lorsque tu la charge
+        Ouvrez la console pour voir les jours s'affichés
     </p>
 
 </body>

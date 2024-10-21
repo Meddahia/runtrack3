@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +9,10 @@
 </head>
 <body>
     <h1>
-        Bienvenu sur ma page
+        verification d'une année bisextile
     </h1>
     <p>
-        Cette page va afficher une alerte lorsque tu la charge
+        ouvrez la console pour voir les resultates
     </p>
 
 </body>
