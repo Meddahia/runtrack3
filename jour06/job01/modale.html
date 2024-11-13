@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page avec Modale</title>
+    <!-- Lien vers le CSS de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Section avec 3 Colonnes -->
+    <div class="container mt-5">
+        <div class="row">
+
+            <!-- Colonne 1 (1/4 de la largeur, avec une image) -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="job01/papillon.webp" class="card-img-top" alt="Papillon">
+                    <div class="card-body">
+                        <h5 class="card-title">Commandez votre propre papillon</h5>
+                        <p class="card-text">Apprenez comment vous pouvez obtenir un papillon unique, spécialement conçu pour vous.</p>
+                        <!-- Bouton pour ouvrir la modale -->
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#confirmationModal">Commandez maintenant</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modale de confirmation -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmationModalLabel">Confirmation de commande</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Êtes-vous sûr de vouloir commander ce papillon unique ?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                    <button type="button" class="btn btn-primary">Confirmer la commande</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lien vers les fichiers JS de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

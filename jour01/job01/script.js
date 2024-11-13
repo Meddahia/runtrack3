@@ -1,6 +1,6 @@
     
    window.onload =function()
   {
-      alert("hello JavaScript !"); 
+      alert("Vous etes connecter !"); 
   };
 

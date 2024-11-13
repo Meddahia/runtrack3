@@ -1,0 +1,20 @@
+body 
+{
+    min-height: 4096px; /* Taille minimale du body */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer 
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Hauteur du footer */
+    background-color: #0e712c; /* Couleur par défaut */
+    color: #fff;
+    text-align: center;
+    line-height: 50px; /* Centrer le texte verticalement */
+    transition: background-color 0.3s; /* Transition pour la couleur */
+}
