@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bijoux Éblouissants</title>
+  <!-- Lien vers le CSS Materialize -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Barre de navigation avec couleur turquoise claire -->
+<nav class="teal lighten-4">
+    <div class="nav-wrapper">
+      <!-- Conteneur du logo et titre alignés avec flexbox -->
+      <a href="#" class="brand-logo">
+        <img src="logo.png" alt="Logo" style="height: 50px;">MEDAYA</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#" class="white-text">Accueil</a></li>
+        <li><a href="#" class="white-text">Collections</a></li>
+        <li><a href="#" class="white-text">À propos</a></li>
+        <li><a href="#" class="white-text">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Section avec la vidéo en background -->
+  <div class="video-bg" style="position: relative; height: 100vh; overflow: hidden;">
+    <video autoplay loop muted playsinline class="responsive-video" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+      <source src="video.C.mov" type="video/mp4">
+      <!-- Ajoutez d'autres formats de vidéos si nécessaire -->
+    </video>
+    
+    <!-- Calque semi-transparent pour la vidéo -->
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 0;"></div>
+    
+    <!-- Contenu principal superposé sur la vidéo -->
+    <div class="container" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; text-align: center; color: white;">
+      <!-- Texte en transparence avec fond léger pour lisibilité -->
+      <h2 class="flow-text" style="opacity: 0.9; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);">Bijoux d'Exception</h2>
+      <p class="flow-text" style="opacity: 0.9; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);">Découvrez nos pièces d'exception</p>
+    </div>
+  </div>
+
+   <!-- Contenu principal avec des cartes de bijoux -->
+   <div class="container">
+    <div class="row">
+      <!-- Collier Émeraude -->
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="photo_2.jpg" alt="Collier Émeraude">
+            <span class="card-title">Collier Émeraude</span>
+          </div>
+          <div class="card-content">
+            <p>Bijou élégant avec une émeraude sertie, parfait pour un look raffiné.</p>
+            <p class="price">350€</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bague Saphir -->
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="photo_3.jpg" alt="Bague Saphir">
+            <span class="card-title">Bague Saphir</span>
+          </div>
+          <div class="card-content">
+            <p>Bague avec un saphir royal, parfaite pour les grandes occasions.</p>
+            <p class="price">450€</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bracelet Émeraude -->
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="photo_4.jpg" alt="Bracelet Émeraude">
+            <span class="card-title">Bracelet Émeraude</span>
+          </div>
+          <div class="card-content">
+            <p>Bracelet raffiné en or jaune avec des émeraudes serties.</p>
+            <p class="price">380€</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jonc Saphir -->
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="photo_5.jpg" alt="Jonc Saphir">
+            <span class="card-title">Jonc Saphir</span>
+          </div>
+          <div class="card-content">
+            <p>Jonc élégant en argent avec un saphir central pour un style raffiné.</p>
+            <p class="price">300€</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Boucles d'oreilles Saphir -->
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="photo_6.jpg" alt="Boucles d'oreilles Saphir">
+            <span class="card-title">Boucles d'oreilles Saphir</span>
+          </div>
+          <div class="card-content">
+            <p>Boucles d'oreilles avec des saphirs sertis, un choix parfait pour toutes les occasions.</p>
+            <p class="price">270€</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Collier Saphir -->
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="photo_7.jpg" alt="Collier Saphir">
+            <span class="card-title">Collier Saphir</span>
+          </div>
+          <div class="card-content">
+            <p>Collier en or blanc avec un pendentif en saphir de taille royale.</p>
+            <p class="price">500€</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Lien vers le JavaScript Materialize -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bijoux Éblouissants</title>
+  <!-- Lien vers le CSS Materialize -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <style>
+    /* Style pour la vidéo en arrière-plan */
+    .video-bg {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 300px; /* Ajustez la hauteur de la vidéo */
+    }
+
+    .video-bg video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+    }
+
+    /* Style pour superposer le contenu */
+    .content-overlay {
+      position: relative;
+      padding: 50px;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barre de navigation -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="logo.png" class="brand-logo">MEDAYA</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Section avec la vidéo en background -->
+  <div class="video-bg">
+    <video autoplay loop muted playsinline>
+      <source src="video.C.mov" type="video/mp4">
+      <!-- Ajoutez d'autres formats de vidéos si nécessaire -->
+    </video>
+    <div class="content-overlay">
+      <h1>Bijoux d'Exception</h1>
+      <p>Découvrez nos pièces d'exception</p>
+    </div>
+  </div>
+
+  <!-- Contenu principal avec des cartes de bijoux -->
+  <div class="container">
+    <div class="row">
+      <!-- Exemple de cartes de bijoux avec Materialize -->
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img src="bijou1.jpg">
+            <span class="card-title">Collier Étoile</span>
+          </div>
+          <div class="card-content">
+            <p>Un collier élégant avec un pendentif en forme d'étoile, idéal pour toutes les occasions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img src="bijou2.jpg">
+            <span class="card-title">Bracelet Enchanté</span>
+          </div>
+          <div class="card-content">
+            <p>Bracelet fin et sophistiqué, parfait pour un look glamour.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Ajoutez plus de cartes de bijoux ici -->
+    </div>
+  </div>
+
+  <!-- Lien vers le JavaScript Materialize -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+<scrip>
+  <div> 
+<p>
+  il faut d nouveau produits 
+</p>
+  </div>
+  <div>
+    <texte></texte>
+  </div>
+  <div class=" cl">
+
+  </div>
+</scrip>
+</html>
